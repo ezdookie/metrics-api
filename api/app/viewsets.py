@@ -1,7 +1,6 @@
 import django_filters
 from django.db.models import F, FloatField, ExpressionWrapper, Sum
-from django.db.models.functions import Cast
-from rest_framework import routers, viewsets
+from rest_framework import viewsets
 from app.models import MetricModel
 from app.serializers import MetricSerializer
 from app.utils import Round2decimals
